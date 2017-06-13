@@ -1,18 +1,25 @@
 # Codeigniter PDF Generator
 Generate PDF's in CodeIgniter using this easy to use library based on domPDF
 
-# Installation
-1. Just drop the Pdf.php and dompdf folder into your libraries directory.
+# Requirements
+* Codeigniter 3.X.X
+* PHP version 5.3.0 or higher
+
+# Easy Installation
+* Just drop the Pdf.php and dompdf folder into your libraries directory.
 
 # Usage
 ```
-$this->load->library('pdf'); // or pdf_ssl for ssl only
-$data = array(
-	//your data array
-);
+//load library
+$this->load->library('pdf'); // change to pdf_ssl for ssl
 $filename = "Document_name";
-$html = $this->load->view('your_view', $data, TRUE);`  
+$html = $this->load->view('your_view_template');
 $this->pdf->create($html, $filename);
+```
+
+You can also pass in data to the function just as you would using
+```
+$html = $this->load->view('your_view_template', $data, TRUE);
 ```
 
 # Help
