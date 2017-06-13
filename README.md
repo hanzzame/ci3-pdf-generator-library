@@ -6,7 +6,7 @@ Generate PDF's in CodeIgniter using this easy to use library based on domPDF
 * PHP version 5.3.0 or higher
 
 # Easy Installation
-* Just drop the Pdf.php and dompdf folder into your libraries directory.
+* Just copy files in libraries folder into your libraries directory.
 
 # Usage
 ```
