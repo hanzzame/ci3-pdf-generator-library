@@ -2,7 +2,7 @@
 Generate PDF's in CodeIgniter using this easy to use library based on domPDF
 
 # Requirements
-* Codeigniter 3.X.X
+* Codeigniter 3.x.x
 * PHP version 5.3.0 or higher
 
 # Easy Installation
